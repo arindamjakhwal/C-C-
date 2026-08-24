@@ -49,16 +49,17 @@ using namespace std;
 //     return 0;
 // }
 
-int main(){
-    int a;
-    cout<<"Enter the value for a"<<endl;
-    cin>>a;
-    int i = 1;
-    int sum = 0;
-    while(i<a){
-        sum += i;
-        i++;
-    }
-    cout<<"Sum of numbers from 1 to "<<a-1<<" is: "<<sum<<endl;
-    return 0;
-}
+// int main(){
+//     int a;
+//     cout<<"Enter the value for a"<<endl;
+//     cin>>a;
+//     int i = 1;
+//     int sum = 0;
+//     while(i<a){
+//         sum += i;
+//         i++;
+//     }
+//     cout<<"Sum of numbers from 1 to "<<a-1<<" is: "<<sum<<endl;
+//     return 0;
+// }
+
