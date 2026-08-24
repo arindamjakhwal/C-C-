@@ -33,18 +33,32 @@ using namespace std;
 //         cout<<"a is zero"<<endl;
 //     }
 // }
-int main() {
-    char ch;
-    cout<<"Enter a character"<<endl;
-    cin>>ch;
-    if(isupper(ch)){
-        cout<<"The character is uppercase"<<endl;
+// int main() {
+//     char ch;
+//     cout<<"Enter a character"<<endl;
+//     cin>>ch;
+//     if(isupper(ch)){
+//         cout<<"The character is uppercase"<<endl;
+//     }
+//     else if(islower(ch)){
+//         cout<<"The character is lowercase"<<endl;
+//     }
+//     else{
+//         cout<<"The character numerical"<<endl;
+//     }
+//     return 0;
+// }
+
+int main(){
+    int a;
+    cout<<"Enter the value for a"<<endl;
+    cin>>a;
+    int i = 1;
+    int sum = 0;
+    while(i<a){
+        sum += i;
+        i++;
     }
-    else if(islower(ch)){
-        cout<<"The character is lowercase"<<endl;
-    }
-    else{
-        cout<<"The character numerical"<<endl;
-    }
+    cout<<"Sum of numbers from 1 to "<<a-1<<" is: "<<sum<<endl;
     return 0;
 }
