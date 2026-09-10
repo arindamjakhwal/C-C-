@@ -29,18 +29,19 @@ using namespace std;
 
 // fibonachi series 
 
-int main(){
-    int n =10;
-    int a = 0;
-    int b = 1;
+// int main(){
+//     int n =10;
+//     int a = 0;
+//     int b = 1;
+//     cout<<a<<" "<<b<<endl;
 
-    for(int i = 1; i<=n;i++){
-        cout<<a<<endl;
-        int nextnumber = a+b;
-        a = b;
-        b = nextnumber;
-    }
-}
+//     for(int i = 1; i<=n;i++){
+//         cout<<a<<endl;
+//         int nextnumber = a+b;
+//         a = b;
+//         b = nextnumber;
+//     }
+// }
 
 // int main(){
 //     int n;
@@ -57,4 +58,52 @@ int main(){
 //         i++;
 //         cout<<endl;
 //     }
+// } 
+
+// for prime number
+
+// int main(){
+//     int n;
+    
+//     cout<<"Enter a number"<<endl;
+//     cin>>n;
+//     for(int i =2; i <n;i++){
+//         if(n%i==0){
+//             cout<<"Not a prime number"<<endl;
+//             return 0;
+//         }
+//     }
+        
 // }
+
+int main(){
+    int n;
+    cout<<"Enter a number"<<endl;
+    cin>>n;
+
+    int i = 2;
+    while(i<n){
+        if(n%i==0){
+            cout<<"Not a prime number"<<endl;
+            return 0;
+        }
+        i++;
+    }
+    cout<<"Prime number"<<endl;
+}
+
+int main(){
+    int n;
+    cout<<"Enter a number"<<endl;
+    cin>>n;
+
+    int i = 2;
+    while(i<n){
+        if(n%i==0){
+            cout<<"Not a "<<endl;
+            return 0;
+        }
+        i++;
+    }
+    cout<<"Prime number"<<endl;
+}
